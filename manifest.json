@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Slack Tab Close",
+    "version": "0.1",  
+    "description": "Auto-closes Slack tabs when it has successfully redirected to the desktop app.",
+    "icons": {
+        "48": "icons/baseline_close_black_24dp.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs"
+    ]  
+  }
